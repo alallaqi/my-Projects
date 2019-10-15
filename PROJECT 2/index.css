@@ -1,0 +1,145 @@
+html{
+background-color: aliceblue;
+font-family: sans-serif;
+position: relative;
+
+}
+html, body{
+ 
+    background: #fbfbfb;
+    margin: 10%;
+    position: relative;
+
+}
+.outermain{
+    background-color: white;
+    padding: 5rem 4rem;
+    box-shadow: 0 0 35px 20px #DDE5EE;
+    position: relative;
+    max-width: 70rem;
+    width: 70%;
+}
+
+.innermain{
+    background-image: url("photo-1489573280374-2e193c63726c.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.innarmain{
+    background-image: url("david-aler-S_5117ybQ7E-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 0;
+    opacity: 0.7;
+    position: relative;
+}
+
+h2{
+    color: #e34d67;
+    font-size: 4.8rem;
+    margin: 0;
+    margin-top: -9rem;
+    font-weight: 900;
+    line-height: 1;
+    padding-left: 25rem;
+    opacity: 2;
+    position: relative;
+    max-width: 60rem;
+    
+}
+
+p{
+    padding-left: 4rem;
+    max-width: 55%;
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.4;
+    position: relative;
+}
+
+.button{
+    display: block;
+    width: 18rem;
+    text-align: center;
+    border: 0.28rem solid #E34D67;
+    text-transform: uppercase;
+    padding: 0.8rem 0.5rem;
+    color: #E34D67;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    outline: none;
+    overflow: hidden;
+    margin-left: 500px;
+    margin-top: 7.5rem;
+    position: relative;
+}
+/*ul{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    transform:rotate(90deg);
+    transform-origin: 87% 100%;
+    transform-origin: 9% 15rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #E34D67;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    
+
+
+}
+li a:hover{
+    color: gainsboro;
+}*/
+li {
+    list-style:none
+}
+ul {    
+    margin:0
+}
+.main-nav {
+     display: flex;
+    justify-content: space-between;
+    width:100vh;    
+    height:45px;
+    position:absolute;
+    -webkit-transform-origin: 128% 380%;
+    -webkit-transform:rotate(90deg) translateX(100%);
+}
+ul.nav {    
+    margin:0 auto;
+    height:100%;        
+}
+
+ul.nav li {    
+    margin-right:20px;
+    float:right;
+    height:100%;
+    line-height:45px;
+}
+ul.nav li a {           
+    color;#e34d66;    
+}

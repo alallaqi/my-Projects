@@ -1,0 +1,79 @@
+p::first-line{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p::first-letter{
+    font-size: 6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+p::before{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    content: "";
+}
+p::after{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    content: "";
+    background: red;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    display: block;
+    color: aqua;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+a:active{
+    display: block;
+    color: aqua;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+a:first-child:hover{
+    opacity: 1;
+    transition: opacity 1s ease-in-out 5sec;
+}
+
+a:hover::after{
+    content: " >";
+    text-decoration: none;
+}
+
+a:first-child{
+    opacity: 1;
+    transition: opacity 1s ease-in-out 2sec;
+}
+
+.square{
+    height: 5em;
+    width: 5em;
+    background-color: aqua;
+    transform: rotate(360deg);
+  
+    transition: transform 1s ease-in-out ;
+    margin:3rem;
+}
+.square:hover{
+    transform: rotate(0)
+}
+
+.square{
+    height: 5em;
+    width: 5em;
+    background-color: aqua;
+    transform: translate(2em, -2em) rotate3d(360deg) skewx(25deg) scale(100);
+  
+    transition: transform 1s ease-in-out ;
+    margin:3rem;
+}
+.square:hover{
+    transform: rotate(0)
+}

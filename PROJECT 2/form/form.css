@@ -1,0 +1,21 @@
+:required{
+    border: 3px solid black;
+}
+
+}
+:invalid{
+border-color: rgb(246, 66, 0);
+
+}
+:valid{
+    border-color: rgb(33, 231, 125);
+    background: white;
+    }
+    :empty{
+        background:lightblue;
+        
+    }
+    :input{
+        background:white;
+        
+    }

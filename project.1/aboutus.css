@@ -1,0 +1,24 @@
+/* div{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(rgb(3, 56, 25), rgba(6, 77, 83, 0.65));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 2rem 3rem;
+    display: flex;
+} */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . .";
+    background-color: aqua;
+    padding: 1rem;
+  }
+  img{
+  padding :2rem;}

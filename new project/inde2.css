@@ -1,0 +1,198 @@
+*{
+margin: 0;
+padding: 0;
+    }
+    
+    
+    
+    html{
+background-color:#ffffff;
+margin-left: 30rem;
+margin-right: 7rem;
+    }
+    ul{
+display: flex;
+justify-content: center;
+
+}
+    
+li{
+list-style: none;
+display: inline-block;
+padding: 2rem;
+cursor: pointer;
+    }
+    a{
+text-decoration: none;
+color: #111111;
+font-family: "open sans", sans-serif;
+font-weight: normal;
+    }
+    a:hover{
+color:#0088cc;
+    }
+    .main{
+display: inline-block;
+padding-top: 17rem;
+    }
+    h2{
+color: #0088cc;
+font-family: "open sans", sans-serif;
+font-weight: bolder;
+display: inline-block;
+font-size: 2.3rem;
+    }
+    h3{
+color: #999999;
+font-family: "open sans", sans-serif;
+font-weight: bold;
+font-size: 2.3rem;
+display: inline-block;
+    
+    }
+    
+    
+    
+    p{
+    max-width: 470px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #999999;
+    padding-top: -1rem;
+    }
+    button{
+text-decoration: none;
+    
+background-color:#111111;
+font-family: "open sans", sans-serif;
+border-radius:28px;
+color: #ffffff;
+padding: 10px 38px;
+    }
+
+    .play{
+    margin-left:-20rem;
+    
+    }
+    
+    .under{
+    text-align: center;
+    display: inline-block;
+    margin-left: 16rem;
+    }
+    .under p{
+min-width:800px ;
+    }
+    
+    .vr{
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-bottom: 7rem;
+    }
+    .button2{
+color: black;
+background-color: #ffffff;
+margin-top: 1rem;
+    }
+    
+    .din{
+margin-top: 15rem;
+margin-left: -31rem;
+width: fit-content;
+height: 52rem;
+    }
+    .iphone1{
+float: right;
+margin-top: 9rem;
+margin-bottom: 5rem;
+    }
+    
+    footer{
+color: #999999;
+    }
+
+
+    
+    @media screen and (max-width: 1024px) {
+        #header .header-content {
+          width: 90%; }
+      
+        .nav-toggle {
+          display: block; }
+      
+        .navigation {
+          position: fixed;
+          background-color: #000;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 99999;
+          visibility: hidden;
+          opacity: 0;
+          -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+          transition: opacity 0.5s, visibility 0s 0.5s; }
+          .navigation .primary-nav {
+            position: relative;
+            top: 45%;
+            -moz-transform: translateY(-45%);
+            -ms-transform: translateY(-45%);
+            -webkit-transform: translateY(-45%);
+            transform: translateY(-45%); }
+          .navigation li {
+            display: block;
+            margin-bottom: 20px; }
+          .navigation a {
+            display: block;
+            font-size: 25px;
+            margin: 0;
+            text-align: center; }
+      
+        .person {
+          margin: 0 auto 50px; }
+          .person-content {
+            text-align: center; }
+          .person .social-icons li {
+            display: inline-block;
+            float: none;
+            margin-bottom: 5px; }
+      
+        .testimonials blockquote {
+          padding: 20px 5% 0; }
+        .testimonials p {
+          font-size: 26px; }
+      
+        .flex-control-nav {
+          bottom: 20px; } }
+      @media screen and (max-width: 768px) {
+        .banner-text {
+          padding-top: 30%; }
+          .banner-text h1 {
+            font-size: 42px; }
+          .banner-text p {
+            font-size: 18px; }
+      
+        .flexslider {
+          padding-bottom: 80px; }
+      
+        .flex-control-nav {
+          width: 100%; }
+      
+        .footer .footer-col {
+          margin-bottom: 50px; } }
+      @media screen and (max-width: 640px) {
+        .banner-text {
+          padding-top: 35%; } }
+      @media screen and (max-width: 480px) {
+        .banner-text {
+          padding-top: 45%; }
+          .banner-text h1 {
+            font-size: 32px; } }
+      @media screen and (max-width: 320px) {
+        .banner-text {
+          padding-top: 55%; }
+      
+        .testimonials blockquote {
+          padding: 20px 5% 0; }
+        .testimonials p {
+          font-size: 26px; }
